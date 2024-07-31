@@ -52,6 +52,8 @@ function App() {
 
     <>
 
+    
+
       {data ? <Main data={data} /> : (
         <div className="loadingState">
           <i className="fa-solid fa-gear"></i>
